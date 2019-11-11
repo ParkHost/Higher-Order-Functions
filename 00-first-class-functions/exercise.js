@@ -18,3 +18,12 @@
 
 // 04 - Use your makeAdder function to create a function that adds 10 to a number
 // Invoke your function several times with different numbers, log the result
+
+
+
+const whatTimeIsIt = () => {
+    console.log('It is: ', new Date().toTimeString());
+ };
+ 
+ // Invoke the function using the variable
+ whatTimeIsIt();

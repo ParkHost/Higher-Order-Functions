@@ -1,30 +1,48 @@
-// 01 - Convert the following for loop to a forEach call on the array
+// // 01 - Convert the following for loop to a forEach call on the array
 
-// Create the array
-const flavors = ['chocolate', 'ginger', 'carrot', 'coffee', 'walnut', 'banana'];
+// // Create the array
+// const flavors = ['chocolate', 'ginger', 'carrot', 'coffee', 'walnut', 'banana'];
 
-// Create the for loop
-for (let i = 0; i < flavors.length; i++) {
-  console.log('I like ' + flavors[i] + ' cake');
-}
+// // Create the for loop
+// for (let i = 0; i < flavors.length; i++) {
+//   console.log('I like ' + flavors[i] + ' cake');
+// }
 
-// 02 - Convert the following for loop to a forEach call on the array
+// flavors.forEach(flavor => {
+//   console.log(`forEach this ${flavor}`);
+// }); 
 
-const numbers = [2, 4, 6, 8];
+// // 02 - Convert the following for loop to a forEach call on the array
 
-for (let i = 0; i < numbers.length; i++) {
-  console.log('The number', numbers[i], 'is at index', i);
-}
+// const numbers = [2, 4, 6, 8];
+
+// for (let i = 0; i < numbers.length; i++) {
+//   console.log('The number', numbers[i], 'is at index', i);
+// }
+
+// numbers.forEach((number, index) => {
+//   console.log(`The foreach ${number} is at the index of ${index}`)
+// })
 
 // 03 - Convert the following for loop to a forEach call on the array
 
-const evenNumbers = [2, 4, 6, 8, 10];
+// const evenNumbers = [2, 4, 6, 8, 10];
 
-for (let i = 0; i < evenNumbers.length; i++) {
-  evenNumbers[i] = evenNumbers[i] * 2;
-}
+// // for (let i = 0; i < evenNumbers.length; i++) {
+// //   evenNumbers[i] = evenNumbers[i] * 2;
+// // }
 
-console.log(evenNumbers);
+// // console.log(evenNumbers);
+
+// evenNumbers.forEach((evenNumber, index, array) => {
+//   array[index] = evenNumber * 2
+//   console.log(array);
+// });
+
+// console.log(evenNumbers);
+
+
+
 
 // 04 - Log the name of each product to the page with a forEach call on the products array
 
@@ -44,3 +62,13 @@ let products = [{
   name: 'Sandals',
   price: 55
 }];
+
+products.forEach(product => {
+  console.log(product.name);
+})
+
+ const names = ['Ruud', 'Esther', 'Lyca']
+
+ names.forEach(name => {
+   console.log(name);
+ })

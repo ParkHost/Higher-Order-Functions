@@ -4,7 +4,7 @@
   "description": "Higher order functions are functions that take in a function as an argument, or return a function as a result.",
   "main": "excercise.js",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {},
   "scripts": {
